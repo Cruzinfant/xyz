@@ -1,0 +1,24 @@
+<testsuite name="sample.Login Feature" tests="2" errors="0" failures="0" skipped="0" time="42.482917" timestamp="2022-10-17T13:46:06.256438" hostname="LAPTOP-VPM1HA83"><testcase classname="sample.Login Feature" name="Login Using valid credentials" status="passed" time="31.83392"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login Using valid credentials
+    Given open browser ... passed in 0.213s
+    When Navigate to the webpage ... passed in 10.205s
+    Then I enter the user name and password ... passed in 11.080s
+    Then I click the submit button ... passed in 5.149s
+    And I click on Logout ... passed in 5.188s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="sample.Login Feature" name="Login using invalid credentials" status="passed" time="10.648997"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Login using invalid credentials
+    Given I enter user name and passwords ... passed in 5.449s
+    Then I click on submit button ... passed in 5.200s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
